@@ -1,0 +1,29 @@
+# Compiled files
+*.pyc
+*~
+
+# WSGI (ignore only if auto-generated)
+passenger_wsgi.py
+*.wsgi.py
+
+# Bytecode cache
+__pycache__/
+
+# Migrations cache, but keep migration files
+*/__pycache__/
+
+# Django local/dev stuff
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
