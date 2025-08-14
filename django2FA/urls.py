@@ -19,11 +19,9 @@ from django.urls import path, include
 from accounts import views as accounts_views
 
 urlpatterns = [
-    #path('accounts/login/', accounts_views.login_view, name='login'),
     path('accounts/', include('accounts.urls')),
 
     path('admin/login/', accounts_views.login_view, name='admin_login'),
     path('admin/', admin.site.urls),
-    #path('/', include('accounts.urls')),
     path('', include('accounts.urls')),
 ]
